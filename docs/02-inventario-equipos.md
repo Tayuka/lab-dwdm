@@ -25,14 +25,14 @@ A continuación, se detalla la función, tipo de interfaz y rol técnico de cada
 ### Especificaciones y Tarjetas de Línea
 Según la interfaz de gestión NMS del equipo, el chasis es de 1U y cuenta con 4 slots, 2 fuentes de alimentación (PSU) y 4 ventiladores:
 
-![Parámetros del Chasis](../diagramas/imagenes/Esquema%204.jpeg)
+![Parámetros del Chasis](/diagramas/imagenes/Esquema4.jpeg)
 
 Las tarjetas instaladas en los slots son las siguientes:
 * **Slot 1:** Tarjeta Transponder 10G SFP+ (HT6000-OTUQS2S). Convierte señales de cliente a longitudes de onda DWDM.
 * **Slot 2:** Módulo 8CH MUX DEMUX (HT6000-ODM08-MON). Multiplexa y demultiplexa hasta 8 canales ópticos.
 * **Slot 3:** Tarjeta Transponder 10G SFP+ (HT6000-OTUQS2S).
 
-![Tarjetas de Línea](../diagramas/imagenes/Esquema%206.jpeg)
+![Tarjetas de Línea](/diagramas/imagenes/Esquema6.jpeg)
 
 ## 6. Carretes de Fibra Óptica (AB - 25 KM y BA - 25 KM)
 **Función:** Medio de transmisión físico simulado.

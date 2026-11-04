@@ -1,14 +1,24 @@
 # 4. Esquemas de Red y Flujo de Señal
 
-## Diagrama de Conexiones Físicas
-El siguiente conjunto de esquemas ilustra las mediciones, el espectro óptico y el flujo de la señal a través de la infraestructura de transporte DWDM del laboratorio.
+## Diagrama de Conexiones Físicas y Topología
+El siguiente diagrama ilustra la topología física completa de la maqueta de laboratorio, detallando el cableado entre la instrumentación, los equipos de agregación, la red de transporte DWDM y el etiquetado del ODF:
 
-![Esquema de Medicion 11](../diagramas/imagenes/Esquema11.jpeg)
-![Esquema de Espectro 12](../diagramas/imagenes/Esquema12.jpeg)
-![Validacion de Tráfico 13](../diagramas/imagenes/Esquema13.jpeg)
-![Topologia Final 14](../diagramas/imagenes/Esquema14.jpeg)
+![Diagrama Físico de la Maqueta](/diagramas/imagenes/diagrama-fisico.png)
 
-## Mapeo de Puertos y Flujo de Señal
-* **Analizador MTX150x** <--> **Switch CSS610**: Inyección de tráfico Ethernet inicial.
-* **Switch CSS610** <--> **Chasis HT6000**: Agregación de servicios hacia el transpondedor.
-* **Chasis HT6000** <--> **Módulo MUX / ODF**: Multiplexación y salida hacia el medio de transmisión de fibra óptica.
+## Matriz de Direccionamiento IP
+* **DWDM 1:** `192.168.1.101 /24`
+* **DWDM 2:** `192.168.1.102 /24`
+* **ETHERNET:** `192.168.1.201 /24`
+* **OSA:** `192.168.1.202 /24`
+* **PC:** `192.168.1.10 /24`
+
+## Mapeo de Puertos en ODF
+* **Puerto 1-A / 1-B:** Monitoreo DWDM 1 y 2.
+* **Puerto 3 / 4:** Conexión de Cliente 1 (Cliente 1 DWDM 1 / 2).
+* **Puerto 6 / 7:** Enlaces hacia los Carretes de Fibra Óptica 1 y 2.
+* **Puerto 9 / 10:** Conectores de Línea DWDM 1 y 2.
+
+## Flujo de la Señal y Validación de Topología
+Las siguientes capturas muestran el estado global de la red y las validaciones de conectividad ejecutadas en la topología:
+
+![Topología Final y Validación 14](/diagramas/imagenes/Esquema14.jpeg)

@@ -13,10 +13,13 @@ El aprovisionamiento de servicios se realiza accediendo al sistema de gestión d
 2. **Revisión de Alarmas:** Verificar en el log de sistema que las tarjetas y fuentes operen sin errores críticos.
 3. **Mapeo de Puertos:** Configurar las tarjetas Transponder para asociar el tráfico de cliente con las longitudes de onda de la banda C.
 
-![Gestión NMS y Puertos LAN](../diagramas/imagenes/Esquema8.jpeg)
-![Configuracion de Canales](../diagramas/imagenes/Esquema9.jpeg)
+![Gestión NMS y Puertos LAN](/diagramas/imagenes/Esquema8.jpeg)
+![Configuracion de Canales](/diagramas/imagenes/Esquema9.jpeg)
 
 ## Procedimiento de Prueba y Medición
-Para validar la operatividad del enlace, se ejecutan las siguientes secuencias de control y monitoreo en los paneles de administración:
+Para validar la operatividad del enlace, se ejecutan las siguientes secuencias de control y monitoreo respaldadas por la instrumentación:
 
-![Monitoreo de Enlace](../diagramas/imagenes/Esquema10.jpeg)
+![Monitoreo de Enlace y Parámetros 10](/diagramas/imagenes/Esquema10.jpeg)
+![Pruebas de Espectro Óptico 11](/diagramas/imagenes/Esquema11.jpeg)
+![Análisis Espectral OSA 12](/diagramas/imagenes/Esquema12.jpeg)
+![Validación de Tráfico L2/L3 13](/diagramas/imagenes/Esquema13.jpeg)
